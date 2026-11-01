@@ -1,0 +1,19 @@
+name: git_engine
+description: Typed Dart API for git, driving the installed executable behind swappable interfaces, for local repositories, remote clients and read-only smart HTTP servers.
+version: 1.0.0
+repository: https://github.com/atotic-apps/git_engine
+issue_tracker: https://github.com/atotic-apps/git_engine/issues
+topics:
+  - git
+  - vcs
+  - version-control
+platforms:
+  linux:
+  macos:
+  windows:
+
+environment:
+  sdk: ^3.3.0
+
+dev_dependencies:
+  test: ^1.25.0

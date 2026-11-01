@@ -1,0 +1,23 @@
+dartdoc:
+  categories:
+    "Getting started":
+      markdown: doc/getting_started.md
+    "Client":
+      markdown: doc/client.md
+    "Server":
+      markdown: doc/serving.md
+    "Errors":
+      markdown: doc/errors.md
+    "Testing":
+      markdown: doc/testing.md
+    "Compatibility":
+      markdown: doc/compatibility.md
+  categoryOrder:
+    - Getting started
+    - Client
+    - Server
+    - Errors
+    - Testing
+    - Compatibility
+  ignore:
+    - unresolved-doc-reference
